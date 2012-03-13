@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 from Queue import Queue
 from string import letters
+
 from common import urls, users, mechBrowser, conversions, timed
 from common.whoami import whoami as wai
 from common.smartmath import smin, smax, savg
+from common.privateData import get as getPrivateData
+
 
 from matplotlib.pyplot import *
 from matplotlib.backends.backend_pdf import PdfPages
@@ -61,6 +64,8 @@ def callTest(pTest,                             #Test module to run
              urlPack = urls.ducotURLpack,       #URLS to use for testing
              spreadsheet = r''):                #Spreadsheet to read values from.
     
+    private = getPrivateData()
+    
     for step in filter(lambda x: x.split("_")[0] == "step", dir(pTest)):
         pDict[step], cycleDict[step] = [], []
 
@@ -91,7 +96,7 @@ def callTest(pTest,                             #Test module to run
                 uname = userObject["user"] + str(usrStart+ACTIVEUSERS+i)
                 t = pTest(mechBrowser.BrowserInstance(),
                           uname,
-                          users.password,
+                          private['password'],
                           random.choice(userObject["cabinets"]),
                           queue,
                           urlPack,
