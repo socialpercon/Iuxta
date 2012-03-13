@@ -1,0 +1,70 @@
+Upload to Cabinet, FINISHED with 2 users on 20 items in 13.93s
+Finished @ Thu Mar 08 13:29:43 2012
+
+vm-ormweb01 used 20 times.
+----------------------------------------------------------------------
+step_DownloadDocument 
+	min:0.190s 	avg:0.413s 	max:0.818s
+step_Logout 
+	min:0.016s 	avg:0.033s 	max:0.078s
+step_SearchForFolder 
+	min:0.096s 	avg:0.108s 	max:0.144s
+step_NavigateSearch 
+	min:0.020s 	avg:0.028s 	max:0.048s
+step_NavigateDocumentProfile 
+	min:0.035s 	avg:0.068s 	max:0.147s
+step_NavigateRootFolder 
+	min:0.130s 	avg:0.146s 	max:0.176s
+step_Login 
+	min:0.250s 	avg:0.581s 	max:3.347s
+
+
+	min:0.105s 	avg:0.197s 	max:0.680s
+
+
+Bandwidth accumulated
+----------------------------------------------------------------------
+step_Logout 
+	download:   11.88K 	upload:    0.00b
+step_SearchForFolder 
+	download:   63.77K 	upload:    0.00b
+step_NavigateSearch 
+	download:   27.44K 	upload:    0.00b
+step_NavigateDocumentProfile 
+	download:   69.01K 	upload:    0.00b
+step_NavigateRootFolder 
+	download:  131.98K 	upload:    0.00b
+step_Login 
+	download:  108.16K 	upload:    0.00b
+
+
+	download:  412.25K 	upload:    0.00b
+
+
+Known errors
+----------------------------------------------------------------------
+nd.automated-drone_151 couldn't find download link in doc profile., count: 11
+nd.automated-drone_150 couldn't find download link in doc profile., count: 9
+
+Items used: 
+----------------------------------------------------------------------
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19

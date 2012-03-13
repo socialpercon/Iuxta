@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+import mechanize, cookielib, urlparse
+
+availableUserAgents = {
+    'old':      'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1',
+    'ie9':      'Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)',
+    'ie8':      'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
+    'ff':       'Mozilla/5.0 (Windows NT 6.2; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+    'chrome':   'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/18.6.872.0 Safari/535.2 UNTRUSTED/1.0 3gpp-gba UNTRUSTED/1.0',
+    'safari':   'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; de-at) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1',
+    'opera':    'Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00'
+}
+    
+class BrowserInstance(object):
+    def __init__(self, uagent="old"):
+        self.b = mechanize.Browser()
+        self.cj = cookielib.LWPCookieJar()
+        self.b.set_cookiejar(self.cj)
+        self.b.set_handle_equiv(True)
+        self.b.set_handle_gzip(False)
+        self.b.set_handle_redirect(True)
+        self.b.set_handle_referer(True)
+        self.b.set_handle_robots(False)
+        self.b.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+        self.b.addheaders = [('User-agent', availableUserAgents[uagent])]

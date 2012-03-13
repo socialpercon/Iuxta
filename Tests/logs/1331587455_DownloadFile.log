@@ -1,0 +1,868 @@
+DownloadFile, FINISHED with 270 users on 550 items in 370.06s
+Finished @ Mon Mar 12 15:24:19 2012
+
+vm-ormweb01 used 550 times.
+----------------------------------------------------------------------
+step_DownloadDocument 
+	min:4.766s 	avg:22.128s 	max:74.782s
+step_Login 
+	min:2.025s 	avg:59.686s 	max:145.411s
+step_Logout 
+	min:0.020s 	avg:8.062s 	max:50.347s
+step_NavigateDocumentProfile 
+	min:1.241s 	avg:11.914s 	max:47.969s
+step_NavigateRootFolder 
+	min:2.024s 	avg:20.533s 	max:53.207s
+step_NavigateSearch 
+	min:0.066s 	avg:12.142s 	max:51.273s
+step_SearchForFolder 
+	min:1.882s 	avg:16.641s 	max:50.348s
+
+
+	min:1.718s 	avg:21.586s 	max:67.620s
+
+
+Bandwidth accumulated
+----------------------------------------------------------------------
+step_DownloadDocument 
+	download:   97.49M 	upload:    0.00b
+step_Login 
+	download:    2.90M 	upload:    0.00b
+step_Logout 
+	download:  326.56K 	upload:    0.00b
+step_NavigateRootFolder 
+	download:    3.76M 	upload:    0.00b
+step_NavigateSearch 
+	download:  754.64K 	upload:    0.00b
+step_SearchForFolder 
+	download:    1.54M 	upload:    0.00b
+
+
+	download:  106.76M 	upload:    0.00b
+
+
+Known errors
+----------------------------------------------------------------------
+nd.automated-drone_670 couldn't find expected document. count: 2
+nd.automated-drone_671 couldn't find expected document. count: 3
+nd.automated-drone_672 couldn't find expected document. count: 2
+nd.automated-drone_673 couldn't find expected document. count: 2
+nd.automated-drone_674 couldn't find expected document. count: 3
+nd.automated-drone_675 couldn't find expected document. count: 2
+nd.automated-drone_676 couldn't find expected document. count: 3
+nd.automated-drone_677 couldn't find expected document. count: 3
+nd.automated-drone_678 couldn't find expected document. count: 3
+nd.automated-drone_679 couldn't find expected document. count: 3
+nd.automated-drone_680 couldn't find expected document. count: 3
+nd.automated-drone_681 couldn't find expected document. count: 2
+nd.automated-drone_682 couldn't find expected document. count: 2
+nd.automated-drone_683 couldn't find expected document. count: 2
+nd.automated-drone_684 couldn't find expected document. count: 3
+nd.automated-drone_685 couldn't find expected document. count: 3
+nd.automated-drone_686 couldn't find expected document. count: 3
+nd.automated-drone_687 couldn't find expected document. count: 3
+nd.automated-drone_688 couldn't find expected document. count: 2
+nd.automated-drone_689 couldn't find expected document. count: 3
+nd.automated-drone_690 couldn't find expected document. count: 3
+nd.automated-drone_691 couldn't find expected document. count: 3
+nd.automated-drone_692 couldn't find expected document. count: 3
+nd.automated-drone_693 couldn't find expected document. count: 3
+nd.automated-drone_694 couldn't find expected document. count: 2
+nd.automated-drone_695 couldn't find expected document. count: 3
+nd.automated-drone_696 couldn't find expected document. count: 2
+nd.automated-drone_697 couldn't find expected document. count: 3
+nd.automated-drone_698 couldn't find expected document. count: 3
+nd.automated-drone_699 couldn't find expected document. count: 3
+nd.automated-drone_700 couldn't find expected document. count: 2
+nd.automated-drone_701 couldn't find expected document. count: 3
+nd.automated-drone_702 couldn't find expected document. count: 2
+nd.automated-drone_703 couldn't find expected document. count: 2
+nd.automated-drone_704 couldn't find expected document. count: 3
+nd.automated-drone_705 couldn't find expected document. count: 2
+nd.automated-drone_706 couldn't find expected document. count: 2
+nd.automated-drone_707 couldn't find expected document. count: 2
+nd.automated-drone_708 couldn't find expected document. count: 2
+nd.automated-drone_709 couldn't find expected document. count: 2
+nd.automated-drone_710 couldn't find expected document. count: 2
+nd.automated-drone_711 couldn't find expected document. count: 2
+nd.automated-drone_712 couldn't find expected document. count: 2
+nd.automated-drone_713 couldn't find expected document. count: 2
+nd.automated-drone_714 couldn't find expected document. count: 2
+nd.automated-drone_715 couldn't find expected document. count: 2
+nd.automated-drone_716 couldn't find expected document. count: 2
+nd.automated-drone_717 couldn't find expected document. count: 2
+nd.automated-drone_718 couldn't find expected document. count: 2
+nd.automated-drone_719 couldn't find expected document. count: 2
+nd.automated-drone_720 couldn't find expected document. count: 2
+nd.automated-drone_721 couldn't find expected document. count: 2
+nd.automated-drone_722 couldn't find expected document. count: 2
+nd.automated-drone_723 couldn't find expected document. count: 2
+nd.automated-drone_724 couldn't find expected document. count: 2
+nd.automated-drone_725 couldn't find expected document. count: 2
+nd.automated-drone_726 couldn't find expected document. count: 2
+nd.automated-drone_727 couldn't find expected document. count: 2
+nd.automated-drone_728 couldn't find expected document. count: 2
+nd.automated-drone_729 couldn't find expected document. count: 2
+nd.automated-drone_730 couldn't find expected document. count: 2
+nd.automated-drone_731 couldn't find expected document. count: 2
+nd.automated-drone_732 couldn't find expected document. count: 2
+nd.automated-drone_733 couldn't find expected document. count: 2
+nd.automated-drone_734 couldn't find expected document. count: 2
+nd.automated-drone_735 couldn't find expected document. count: 2
+nd.automated-drone_736 couldn't find expected document. count: 2
+nd.automated-drone_737 couldn't find expected document. count: 2
+nd.automated-drone_738 couldn't find expected document. count: 2
+nd.automated-drone_739 couldn't find expected document. count: 2
+nd.automated-drone_740 couldn't find expected document. count: 2
+nd.automated-drone_741 couldn't find expected document. count: 2
+nd.automated-drone_742 couldn't find expected document. count: 2
+nd.automated-drone_743 couldn't find expected document. count: 2
+nd.automated-drone_744 couldn't find expected document. count: 2
+nd.automated-drone_745 couldn't find expected document. count: 2
+nd.automated-drone_746 couldn't find expected document. count: 2
+nd.automated-drone_747 couldn't find expected document. count: 2
+nd.automated-drone_748 couldn't find expected document. count: 2
+nd.automated-drone_749 couldn't find expected document. count: 2
+nd.automated-drone_750 couldn't find expected document. count: 2
+nd.automated-drone_751 couldn't find expected document. count: 2
+nd.automated-drone_752 couldn't find expected document. count: 2
+nd.automated-drone_753 couldn't find expected document. count: 2
+nd.automated-drone_754 couldn't find expected document. count: 2
+nd.automated-drone_755 couldn't find expected document. count: 2
+nd.automated-drone_756 couldn't find expected document. count: 2
+nd.automated-drone_757 couldn't find expected document. count: 2
+nd.automated-drone_758 couldn't find expected document. count: 2
+nd.automated-drone_759 couldn't find expected document. count: 2
+nd.automated-drone_760 couldn't find expected document. count: 2
+nd.automated-drone_761 couldn't find expected document. count: 2
+nd.automated-drone_762 couldn't find expected document. count: 2
+nd.automated-drone_763 couldn't find expected document. count: 2
+nd.automated-drone_764 couldn't find expected document. count: 2
+nd.automated-drone_765 couldn't find expected document. count: 2
+nd.automated-drone_766 couldn't find expected document. count: 2
+nd.automated-drone_767 couldn't find expected document. count: 2
+nd.automated-drone_768 couldn't find expected document. count: 2
+nd.automated-drone_769 couldn't find expected document. count: 2
+nd.automated-drone_770 couldn't find expected document. count: 2
+nd.automated-drone_771 couldn't find expected document. count: 2
+nd.automated-drone_772 couldn't find expected document. count: 2
+nd.automated-drone_773 couldn't find expected document. count: 2
+nd.automated-drone_774 couldn't find expected document. count: 2
+nd.automated-drone_775 couldn't find expected document. count: 2
+nd.automated-drone_776 couldn't find expected document. count: 2
+nd.automated-drone_777 couldn't find expected document. count: 2
+nd.automated-drone_778 couldn't find expected document. count: 2
+nd.automated-drone_779 couldn't find expected document. count: 2
+nd.automated-drone_780 couldn't find expected document. count: 2
+nd.automated-drone_781 couldn't find expected document. count: 2
+nd.automated-drone_782 couldn't find expected document. count: 2
+nd.automated-drone_783 couldn't find expected document. count: 2
+nd.automated-drone_784 couldn't find expected document. count: 2
+nd.automated-drone_785 couldn't find expected document. count: 2
+nd.automated-drone_786 couldn't find expected document. count: 2
+nd.automated-drone_787 couldn't find expected document. count: 2
+nd.automated-drone_788 couldn't find expected document. count: 2
+nd.automated-drone_789 couldn't find expected document. count: 2
+nd.automated-drone_790 couldn't find expected document. count: 2
+nd.automated-drone_791 couldn't find expected document. count: 2
+nd.automated-drone_792 couldn't find expected document. count: 2
+nd.automated-drone_793 couldn't find expected document. count: 2
+nd.automated-drone_794 couldn't find expected document. count: 2
+nd.automated-drone_795 couldn't find expected document. count: 2
+nd.automated-drone_796 couldn't find expected document. count: 2
+nd.automated-drone_797 couldn't find expected document. count: 2
+nd.automated-drone_798 couldn't find expected document. count: 2
+nd.automated-drone_799 couldn't find expected document. count: 2
+nd.automated-drone_800 couldn't find expected document. count: 2
+nd.automated-drone_801 couldn't find expected document. count: 2
+nd.automated-drone_802 couldn't find expected document. count: 2
+nd.automated-drone_803 couldn't find expected document. count: 2
+nd.automated-drone_804 couldn't find expected document. count: 2
+nd.automated-drone_805 couldn't find expected document. count: 2
+nd.automated-drone_806 couldn't find expected document. count: 2
+nd.automated-drone_807 couldn't find expected document. count: 2
+nd.automated-drone_808 couldn't find expected document. count: 2
+nd.automated-drone_809 couldn't find expected document. count: 2
+nd.automated-drone_810 couldn't find expected document. count: 2
+nd.automated-drone_811 couldn't find expected document. count: 2
+nd.automated-drone_812 couldn't find expected document. count: 2
+nd.automated-drone_813 couldn't find expected document. count: 2
+nd.automated-drone_814 couldn't find expected document. count: 2
+nd.automated-drone_815 couldn't find expected document. count: 2
+nd.automated-drone_816 couldn't find expected document. count: 2
+nd.automated-drone_817 couldn't find expected document. count: 2
+nd.automated-drone_818 couldn't find expected document. count: 2
+nd.automated-drone_819 couldn't find expected document. count: 2
+nd.automated-drone_820 couldn't find expected document. count: 2
+nd.automated-drone_821 couldn't find expected document. count: 2
+nd.automated-drone_822 couldn't find expected document. count: 2
+nd.automated-drone_823 couldn't find expected document. count: 2
+nd.automated-drone_824 couldn't find expected document. count: 2
+nd.automated-drone_825 couldn't find expected document. count: 2
+nd.automated-drone_826 couldn't find expected document. count: 2
+nd.automated-drone_827 couldn't find expected document. count: 2
+nd.automated-drone_828 couldn't find expected document. count: 2
+nd.automated-drone_829 couldn't find expected document. count: 2
+nd.automated-drone_830 couldn't find expected document. count: 2
+nd.automated-drone_831 couldn't find expected document. count: 2
+nd.automated-drone_832 couldn't find expected document. count: 2
+nd.automated-drone_833 couldn't find expected document. count: 2
+nd.automated-drone_834 couldn't find expected document. count: 2
+nd.automated-drone_835 couldn't find expected document. count: 2
+nd.automated-drone_836 couldn't find expected document. count: 2
+nd.automated-drone_837 couldn't find expected document. count: 2
+nd.automated-drone_838 couldn't find expected document. count: 2
+nd.automated-drone_839 couldn't find expected document. count: 2
+nd.automated-drone_840 couldn't find expected document. count: 2
+nd.automated-drone_841 couldn't find expected document. count: 2
+nd.automated-drone_842 couldn't find expected document. count: 2
+nd.automated-drone_843 couldn't find expected document. count: 2
+nd.automated-drone_844 couldn't find expected document. count: 2
+nd.automated-drone_845 couldn't find expected document. count: 2
+nd.automated-drone_846 couldn't find expected document. count: 2
+nd.automated-drone_847 couldn't find expected document. count: 2
+nd.automated-drone_848 couldn't find expected document. count: 2
+nd.automated-drone_849 couldn't find expected document. count: 2
+nd.automated-drone_850 couldn't find expected document. count: 2
+nd.automated-drone_851 couldn't find expected document. count: 2
+nd.automated-drone_852 couldn't find expected document. count: 2
+nd.automated-drone_853 couldn't find expected document. count: 2
+nd.automated-drone_854 couldn't find expected document. count: 2
+nd.automated-drone_855 couldn't find expected document. count: 2
+nd.automated-drone_856 couldn't find expected document. count: 2
+nd.automated-drone_857 couldn't find expected document. count: 2
+nd.automated-drone_858 couldn't find expected document. count: 2
+nd.automated-drone_859 couldn't find expected document. count: 2
+nd.automated-drone_860 couldn't find expected document. count: 2
+nd.automated-drone_861 couldn't find expected document. count: 2
+nd.automated-drone_862 couldn't find expected document. count: 2
+nd.automated-drone_863 couldn't find expected document. count: 2
+nd.automated-drone_864 couldn't find expected document. count: 2
+nd.automated-drone_865 couldn't find expected document. count: 2
+nd.automated-drone_866 couldn't find expected document. count: 2
+nd.automated-drone_867 couldn't find expected document. count: 2
+nd.automated-drone_868 couldn't find expected document. count: 2
+nd.automated-drone_869 couldn't find expected document. count: 2
+nd.automated-drone_870 couldn't find expected document. count: 2
+nd.automated-drone_871 couldn't find expected document. count: 2
+nd.automated-drone_872 couldn't find expected document. count: 2
+nd.automated-drone_873 couldn't find expected document. count: 2
+nd.automated-drone_874 couldn't find expected document. count: 2
+nd.automated-drone_875 couldn't find expected document. count: 2
+nd.automated-drone_876 couldn't find expected document. count: 2
+nd.automated-drone_877 couldn't find expected document. count: 2
+nd.automated-drone_878 couldn't find expected document. count: 2
+nd.automated-drone_879 couldn't find expected document. count: 2
+nd.automated-drone_880 couldn't find expected document. count: 2
+nd.automated-drone_881 couldn't find expected document. count: 2
+nd.automated-drone_882 couldn't find expected document. count: 2
+nd.automated-drone_883 couldn't find expected document. count: 2
+nd.automated-drone_884 couldn't find expected document. count: 2
+nd.automated-drone_885 couldn't find expected document. count: 2
+nd.automated-drone_886 couldn't find expected document. count: 2
+nd.automated-drone_887 couldn't find expected document. count: 2
+nd.automated-drone_888 couldn't find expected document. count: 2
+nd.automated-drone_889 couldn't find expected document. count: 2
+nd.automated-drone_890 couldn't find expected document. count: 2
+nd.automated-drone_891 couldn't find expected document. count: 2
+nd.automated-drone_892 couldn't find expected document. count: 2
+nd.automated-drone_893 couldn't find expected document. count: 2
+nd.automated-drone_894 couldn't find expected document. count: 2
+nd.automated-drone_895 couldn't find expected document. count: 2
+nd.automated-drone_896 couldn't find expected document. count: 2
+nd.automated-drone_897 couldn't find expected document. count: 2
+nd.automated-drone_898 couldn't find expected document. count: 2
+nd.automated-drone_899 couldn't find expected document. count: 2
+nd.automated-drone_900 couldn't find expected document. count: 2
+nd.automated-drone_901 couldn't find expected document. count: 2
+nd.automated-drone_902 couldn't find expected document. count: 2
+nd.automated-drone_903 couldn't find expected document. count: 2
+nd.automated-drone_904 couldn't find expected document. count: 2
+nd.automated-drone_905 couldn't find expected document. count: 2
+nd.automated-drone_906 couldn't find expected document. count: 2
+nd.automated-drone_907 couldn't find expected document. count: 2
+nd.automated-drone_908 couldn't find expected document. count: 2
+nd.automated-drone_909 couldn't find expected document. count: 2
+nd.automated-drone_910 couldn't find expected document. count: 2
+nd.automated-drone_911 couldn't find expected document. count: 2
+nd.automated-drone_912 couldn't find expected document. count: 2
+nd.automated-drone_913 couldn't find expected document. count: 2
+nd.automated-drone_914 couldn't find expected document. count: 1
+nd.automated-drone_915 couldn't find expected document. count: 1
+nd.automated-drone_916 couldn't find expected document. count: 2
+nd.automated-drone_917 couldn't find expected document. count: 2
+nd.automated-drone_918 couldn't find expected document. count: 2
+nd.automated-drone_919 couldn't find expected document. count: 2
+nd.automated-drone_920 couldn't find expected document. count: 1
+nd.automated-drone_921 couldn't find expected document. count: 1
+nd.automated-drone_922 couldn't find expected document. count: 2
+nd.automated-drone_923 couldn't find expected document. count: 2
+nd.automated-drone_924 couldn't find expected document. count: 2
+nd.automated-drone_925 couldn't find expected document. count: 1
+nd.automated-drone_926 couldn't find expected document. count: 2
+nd.automated-drone_927 couldn't find expected document. count: 1
+nd.automated-drone_928 couldn't find expected document. count: 1
+nd.automated-drone_929 couldn't find expected document. count: 2
+nd.automated-drone_930 couldn't find expected document. count: 1
+nd.automated-drone_931 couldn't find expected document. count: 2
+nd.automated-drone_932 couldn't find expected document. count: 1
+nd.automated-drone_933 couldn't find expected document. count: 2
+nd.automated-drone_934 couldn't find expected document. count: 1
+nd.automated-drone_935 couldn't find expected document. count: 2
+nd.automated-drone_936 couldn't find expected document. count: 2
+nd.automated-drone_937 couldn't find expected document. count: 1
+nd.automated-drone_938 couldn't find expected document. count: 2
+nd.automated-drone_939 couldn't find expected document. count: 1
+
+Items used: 
+----------------------------------------------------------------------
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+511
+512
+513
+514
+515
+516
+517
+518
+519
+520
+521
+522
+523
+524
+525
+526
+527
+528
+529
+530
+531
+532
+533
+534
+535
+536
+537
+538
+539
+540
+541
+542
+543
+544
+545
+546
+547
+548
+549

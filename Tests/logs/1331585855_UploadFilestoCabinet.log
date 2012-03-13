@@ -1,0 +1,68 @@
+UploadFilestoCabinet, FINISHED with 5 users on 30 items in 19.30s
+Finished @ Mon Mar 12 14:57:36 2012
+
+vm-ormweb01 used 5 times.
+----------------------------------------------------------------------
+step_Login 
+	min:1.406s 	avg:1.471s 	max:1.508s
+step_Logout 
+	min:0.030s 	avg:0.035s 	max:0.038s
+step_NavigateCabinetUpload 
+	min:0.018s 	avg:0.032s 	max:0.065s
+step_UploadFile 
+	min:1.075s 	avg:2.796s 	max:10.321s
+
+
+	min:0.632s 	avg:1.083s 	max:2.983s
+
+
+Bandwidth accumulated
+----------------------------------------------------------------------
+step_Login 
+	download:   27.04K 	upload:    0.00b
+step_Logout 
+	download:    2.97K 	upload:    0.00b
+step_NavigateCabinetUpload 
+	download:  111.45K 	upload:    0.00b
+step_UploadFile 
+	download:   43.11K 	upload:    8.61M
+
+
+	download:  184.57K 	upload:    8.61M
+
+
+Known errors
+----------------------------------------------------------------------
+
+Items used: 
+----------------------------------------------------------------------
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\1 Seeding Program - James Blish.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\1984 - George Orwell.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\1984 - Orwell_ George.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\1st to Die - James Patterson.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2 Thing In the Attic - James Blish.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2001 - A Space Odyssey - Clarke_ Arthur C_.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2001_ a space odyssey - Arthur C. Clarke.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2010_ Odyssey Two - Arthur C. Clarke.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2010_ Odyssey Two - Clarke_ Arthur C_.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2061 - Arthur C. Clarke.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2061_ Odyssey Three - Clarke_ Arthur C_.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2066 Election Day - Michael Shaara.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\2nd Chance - James Patterson.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\3 Surface Tension - James Blish.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\3001 the final odyssey - Arthur C. Clarke.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\3001_ The Final Odyssey - Clarke_ Arthur C_.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\3rd Degree - James Patterson.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\4 Watershed - James Blish.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\4.50 From Paddington - Christie_ Agatha.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\48 Laws of Power - Greene_ Robert.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\4th of July - James Patterson.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\4th Wish - Ed Howdershelt.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\700 Sundays - Billy Crystal.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\7th Heaven - James Patterson.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\A Bedroom in the Wee Hours of the Morning - Stephen King.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\A bend in the river - V. S. Naipaul.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\A Bend in the Road - Sparks_ Nicholas.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\A Big Little Life - Dean Koontz.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\A Brief History of Time - Hawking_ Stephen.epub
+C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\A Briefer History of Time - Hawking_ Stephen.epub

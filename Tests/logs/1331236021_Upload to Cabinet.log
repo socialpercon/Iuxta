@@ -1,0 +1,48 @@
+Upload to Cabinet, FINISHED with 2 users on 10 items in 5.38s
+Finished @ Thu Mar 08 12:47:02 2012
+
+vm-ormweb01 used 10 times.
+----------------------------------------------------------------------
+step_DownloadDocument 
+	min:0.000s 	avg:0.000s 	max:0.000s
+step_Logout 
+	min:0.016s 	avg:0.026s 	max:0.050s
+step_SearchForFolder 
+	min:0.087s 	avg:0.104s 	max:0.148s
+step_NavigateSearch 
+	min:0.020s 	avg:0.038s 	max:0.091s
+step_NavigateDocument 
+	min:0.000s 	avg:0.000s 	max:0.000s
+step_NavigateRootFolder 
+	min:0.086s 	avg:0.101s 	max:0.122s
+step_Login 
+	min:0.275s 	avg:0.775s 	max:3.293s		0.484s 	1.043s 	3.704s
+
+
+Bandwidth accumulated
+----------------------------------------------------------------------
+step_Logout 
+	download:    5.94K 	upload:    0.00b
+step_SearchForFolder 
+	download:   28.68K 	upload:    0.00b
+step_NavigateSearch 
+	download:   13.72K 	upload:    0.00b
+step_Login 
+	download:   54.08K 	upload:    0.00b
+step_NavigateRootFolder 
+	download:   29.67K 	upload:    0.00b
+
+Known errors
+----------------------------------------------------------------------
+
+Items used: 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
