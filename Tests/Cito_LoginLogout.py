@@ -1,19 +1,14 @@
-from Queue import Queue
-from string import letters
+#!/usr/bin/env python
 
 from common import urls, users, mechBrowser, conversions, timed
 from common.whoami import whoami as wai
-from common.smartmath import smin, smax, savg
 
-from matplotlib.pyplot import *
-from matplotlib.backends.backend_pdf import PdfPages
-import matplotlib.pyplot as plt
-
-import mechanize, cookielib, urlparse
 import threading, time, random
-import glob, os
+import glob, os, uuid, re
 
 import Cito_Core as cc
+
+tempFilesFolder = r"C:\Temp\Cito"
 #-------------------------------------
 class LoginLogout(threading.Thread):
     def __init__(self, browserObject, username, password, cabinetID, queue, urlp, ssInfo = {}):

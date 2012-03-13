@@ -1,16 +1,8 @@
 #!/usr/bin/env python
 
-from Queue import Queue
-from string import letters
 from common import urls, users, mechBrowser, conversions, timed
 from common.whoami import whoami as wai
-from common.smartmath import smin, smax, savg
 
-from matplotlib.pyplot import *
-from matplotlib.backends.backend_pdf import PdfPages
-import matplotlib.pyplot as plt
-
-import mechanize, cookielib, urlparse
 import threading, time, random
 import glob, os, uuid, re
 
