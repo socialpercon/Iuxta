@@ -1,5 +1,6 @@
 from Queue import Queue
 from string import letters
+
 from common import urls, users, mechBrowser, conversions, timed
 from common.whoami import whoami as wai
 from common.smartmath import smin, smax, savg
@@ -15,7 +16,7 @@ import glob, os
 import Cito_Core as cc
 #-------------------------------------
 class LoginLogout(threading.Thread):
-    def __init__(self, browserObject, username, password, cabinetID, queue, urlp):
+    def __init__(self, browserObject, username, password, cabinetID, queue, urlp, ssInfo = {}):
         threading.Thread.__init__(self)
         
         self.up = urlp
