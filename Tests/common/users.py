@@ -10,8 +10,6 @@ userVE = "nd.Automated_VE"
 userV = "nd.Automated_V"
 userNA = "nd.Automated_NA"
 
-password = "snoopy"
-
 ducotDrones = {
     "user":"nd.automated-drone_", # 0 -1000
     "cabinets":["NG-Z346VE67"]
