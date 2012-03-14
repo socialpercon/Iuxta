@@ -107,6 +107,7 @@ if __name__ == "__main__":
         usrCycle = 7,
         totalFiles = glob.glob(r"C:\cygwin\home\bvandemerwe\www.ols11.com.nyud.net\dprine\Books\Epub books\*.*")[:450],
         userObject = users.ducotDrones,
-        urlPack = urls.ducotURLpack)
+        urlPack = urls.ducotURLpack,
+        spreadsheet = '')
     
     cc.printStats(results)

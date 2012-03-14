@@ -80,6 +80,7 @@ if __name__ == "__main__":
         usrCycle = 15,
         totalFiles = range(0, 2000),
         userObject = users.ducotDrones,
-        urlPack = urls.ducotURLpack)
+        urlPack = urls.ducotURLpack,
+        spreadsheet = '')
     
     cc.printStats(results)
